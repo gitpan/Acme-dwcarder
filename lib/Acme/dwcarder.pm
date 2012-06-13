@@ -10,11 +10,11 @@ Acme::dwcarder - The great new Acme::dwcarder!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.02_01';
 
 
 =head1 SYNOPSIS
