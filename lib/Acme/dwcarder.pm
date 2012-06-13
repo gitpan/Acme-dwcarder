@@ -1,6 +1,6 @@
 package Acme::dwcarder;
 
-use 5.006
+use 5.006;
 use strict;
 use warnings;
 
@@ -10,11 +10,11 @@ Acme::dwcarder - The great new Acme::dwcarder!
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02_01';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
@@ -34,6 +34,20 @@ A list of functions that can be exported.  You can delete this section
 if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
+
+=head2 sum ( LIST_OF_NUMBERS )
+
+Returns the sum of the numbers.
+
+=cut
+
+sub sum {
+	my $z;
+	foreach my $x (@_) {
+		$z = $z + $x;
+	}
+}
+
 
 =head2 function1
 
